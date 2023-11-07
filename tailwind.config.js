@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors")
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -9,7 +10,21 @@ module.exports = {
     "./app.vue"
   ],
   theme: {
-    extend: {},
+    extend: {
+      extend: {
+        colors: {
+          primary: {
+            DEFAULT: colors.violent[600],
+            ...colors.violent,
+          }
+        }
+      },
+      fontFamily: {
+        sans: ["Inter"],
+        sans: ["Source Serif Pro"]
+         
+      }
+    },
   },
   plugins: [],
 }

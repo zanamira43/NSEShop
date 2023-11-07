@@ -1,5 +1,6 @@
 <template>
-  <div class="min-h-screen">
+  <div class="h-screen">
+    <VitePwaManifest />
     <NuxtPage />
   </div>
 </template>

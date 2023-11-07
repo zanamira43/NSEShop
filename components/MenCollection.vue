@@ -5,6 +5,7 @@ const mens = ref([
   { title: "Nike Shoes", img: "product3.jpg" },
   { title: "Wirst Watch", img: "product4.jpg" },
 ]);
+
 </script>
 <template>
   <!-- Men Collection Component -->
