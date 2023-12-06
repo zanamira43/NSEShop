@@ -1,13 +1,7 @@
 <template>
   <!-- Footer Component Style -->
-  <div
-    class="border-t-2 border-gray-300 p-5 flex flex-col md:flex-row md:justify-between text-center text-sm"
-  >
-    <div class="mb-4">
-      <a href="#" class="mx-2.5">About</a>
-      <a href="#" class="mx-2.5">Privacy Police</a>
-      <a href="#" class="mx-2.5">Terms Of Services</a>
-    </div>
-    <p>&copy; Copyright Reserved 2021</p>
+  <div class="flex justify-between text-center p-2 bg-white w-full drop-shadow-2xl mt-auto">
+    <h1 class="text-sm lg:text-2xl font-bold">NAS SHOP</h1>
+    <p class="tex-sm font-light text-gray-500">&copy; Copyright Reserved {{ new Date().getFullYear() }}</p>
   </div>
 </template>

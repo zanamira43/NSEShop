@@ -9,22 +9,6 @@ module.exports = {
     "./nuxt.config.{js,ts}",
     "./app.vue"
   ],
-  theme: {
-    extend: {
-      extend: {
-        colors: {
-          primary: {
-            DEFAULT: colors.violent[600],
-            ...colors.violent,
-          }
-        }
-      },
-      fontFamily: {
-        sans: ["Inter"],
-        sans: ["Source Serif Pro"]
-         
-      }
-    },
-  },
+  theme: {},
   plugins: [],
 }
